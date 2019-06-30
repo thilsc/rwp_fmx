@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/20 11:36:00.000.184,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 08:46:02.000.922,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 13:16:25.000.696,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 13:30:00.000.287,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 13:41:30.000.192,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/23 13:50:38.000.378,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/01 16:14:05.000.058,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 15:36:28.000.143,=C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 15:37:10.000.977,C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Thiago_Coutinho\RWP_FMX\URWP.pas</Transaction>
+    <Transaction>2018/08/10 15:37:10.000.977,C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Thiago_Coutinho\RWP_FMX\URWP.fmx</Transaction>
+    <Transaction>2018/08/10 15:37:17.000.212,C:\Users\thiago.coutinho\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Thiago_Coutinho\RWP_FMX\RWP_FMX.dproj</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.694,=C:\Thiago_Coutinho\RWP_FMX\RWPAppPosition.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.778,=C:\Thiago_Coutinho\RWP_FMX\RWPTypes.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.725,=C:\Thiago_Coutinho\RWP_FMX\RWPFactory.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.725,=C:\Thiago_Coutinho\RWP_FMX\RWPFormController.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.710,=C:\Thiago_Coutinho\RWP_FMX\RWPConsts.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.763,=C:\Thiago_Coutinho\RWP_FMX\RWPInterface.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.747,=C:\Thiago_Coutinho\RWP_FMX\RWPIniFile.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.746,=C:\Thiago_Coutinho\RWP_FMX\RWPFormPosition.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.794,=C:\Thiago_Coutinho\RWP_FMX\RWPVolumeControl.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.794,=C:\Thiago_Coutinho\RWP_FMX\RWPUtils.pas</Transaction>
+    <Transaction>2018/08/10 15:48:12.000.763,=C:\Thiago_Coutinho\RWP_FMX\RWPRegistry.pas</Transaction>
+    <Transaction>2018/08/10 15:48:16.000.103,=C:\Thiago_Coutinho\RWP_FMX\UfrmConfig.pas</Transaction>
+    <Transaction>2018/08/28 18:06:53.000.022,=C:\Thiago_Coutinho\RWP_FMX\UfrmSobreFMX.pas</Transaction>
+    <Transaction>2018/08/28 18:06:56.000.204,C:\Thiago_Coutinho\RWP_FMX\UfrmSobreFMX.pas=</Transaction>
+    <Transaction>2018/08/28 18:07:16.000.769,=C:\Thiago_Coutinho\RWP_FMX\UfrmSobre.pas</Transaction>
+    <Transaction>2018/08/29 08:50:26.000.295,=C:\Thiago_Coutinho\RWP_FMX\Unit1.pas</Transaction>
+    <Transaction>2018/08/29 08:51:20.000.163,=C:\Thiago_Coutinho\RWP_FMX\Unit1.pas</Transaction>
+    <Transaction>2018/08/29 08:52:03.000.535,C:\Thiago_Coutinho\RWP_FMX\UfrmRWPBase.fmx=C:\Thiago_Coutinho\RWP_FMX\Unit1.fmx</Transaction>
+    <Transaction>2018/08/29 08:52:03.000.535,C:\Thiago_Coutinho\RWP_FMX\UfrmRWPBase.pas=C:\Thiago_Coutinho\RWP_FMX\Unit1.pas</Transaction>
+    <Transaction>2018/08/29 08:59:23.000.720,C:\Thiago_Coutinho\RWP_FMX\URWP.pas=</Transaction>
+    <Transaction>2018/08/29 09:04:25.000.560,=C:\Thiago_Coutinho\RWP_FMX\URWP.pas</Transaction>
+    <Transaction>2018/08/29 11:26:33.000.879,C:\Thiago_Coutinho\RWP_FMX\URWP.pas=C:\Thiago_Coutinho\RWP_FMX\UfrmRWPForm.pas</Transaction>
+    <Transaction>2018/08/29 11:26:33.000.879,C:\Thiago_Coutinho\RWP_FMX\URWP.fmx=C:\Thiago_Coutinho\RWP_FMX\UfrmRWPForm.fmx</Transaction>
+    <Transaction>2018/08/29 11:32:09.000.943,=C:\Thiago_Coutinho\RWP_FMX\UfrmRWPIE.pas</Transaction>
+    <Transaction>2018/08/29 11:38:14.000.266,C:\Thiago_Coutinho\RWP_FMX\UfrmRWPIE.pas=</Transaction>
+    <Transaction>2018/08/29 11:38:26.000.952,=C:\Thiago_Coutinho\RWP_FMX\UfrmRWPIE.pas</Transaction>
+    <Transaction>2018/08/29 13:05:33.000.653,C:\Thiago_Coutinho\RWP_FMX\RWPVolumeControl.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="apk-expansion.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="RWPConsts.pas"/>
+    <File Path="RWPFactory.pas"/>
+    <File Path="RWPFormController.pas"/>
+    <File Path="RWPFormPosition.pas"/>
+    <File Path="RWPIniFile.pas"/>
+    <File Path="RWPInterface.pas"/>
+    <File Path="RWPRegistry.pas"/>
+    <File Path="RWPTypes.pas"/>
+    <File Path="RWPUtils.pas"/>
+    <File Path="UfrmConfig.pas"/>
+    <File Path="UfrmConfig.fmx"/>
+    <File Path="UfrmSobre.pas"/>
+    <File Path="UfrmSobre.dfm"/>
+    <File Path="UfrmRWPBase.pas"/>
+    <File Path="UfrmRWPBase.fmx"/>
+    <File Path="UfrmRWPForm.pas"/>
+    <File Path="UfrmRWPForm.fmx"/>
+    <File Path="UfrmRWPIE.pas"/>
+  </ProjectSortOrder>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

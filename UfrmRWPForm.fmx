@@ -1,0 +1,139 @@
+inherited frmRWPForm: TfrmRWPForm
+  Caption = 'RadioWebPlayer'
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  OnHide = FormHide
+  DesignerMasterStyle = 0
+  object lbl1: TLabel
+    Align = Top
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Size.Width = 418.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = 'RadioWebPlayer'
+  end
+  object pnlSeletor: TPanel
+    Align = Bottom
+    Position.Y = 256.000000000000000000
+    Size.Width = 418.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object cbb1: TComboBox
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = cbb1Change
+    end
+    object pnl1: TPanel
+      Align = Bottom
+      Position.Y = 32.000000000000000000
+      Size.Width = 418.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblStatus: TLabel
+        Align = Client
+        Size.Width = 418.000000000000000000
+        Size.Height = 16.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Status'
+      end
+    end
+    object btnConfig: TCornerButton
+      CornerType = InnerRound
+      Position.X = 215.000000000000000000
+      Position.Y = 4.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 86.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Config...'
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = btnConfigClick
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 172
+    Top = 136
+    object AbrirPlayer1: TMenuItem
+      Action = ActExibirOcultar
+      Enabled = True
+      ImageIndex = -1
+    end
+    object Configurar1: TMenuItem
+      Action = ActConfigurar
+      Enabled = True
+      Text = 'Configurar...'
+      ImageIndex = -1
+    end
+    object Radios1: TMenuItem
+      Text = 'Radios'
+      object mnuItem: TMenuItem
+        Locked = True
+        Text = 'mnuItem'
+      end
+    end
+    object N2: TMenuItem
+      Text = '-'
+    end
+    object mnuMudo: TMenuItem
+      Text = 'Mudo'
+      OnClick = ActMudoExecute
+    end
+    object Atualizar1: TMenuItem
+      Action = ActAtualizar
+      Enabled = True
+      Text = 'Atualizar'
+      ImageIndex = -1
+    end
+    object N1: TMenuItem
+      Text = '-'
+    end
+    object Sobre1: TMenuItem
+      Action = ActSobre
+      Enabled = True
+      ImageIndex = -1
+    end
+    object Fechar1: TMenuItem
+      Text = 'Fechar'
+      OnClick = ActFecharExecute
+    end
+  end
+  object ActionList1: TActionList
+    Left = 220
+    Top = 136
+    object ActAtualizar: TAction
+      OnExecute = ActAtualizarExecute
+    end
+    object ActConfigurar: TAction
+      OnExecute = ActConfigurarExecute
+    end
+    object ActExecutar: TAction
+      OnExecute = ActExecutarExecute
+    end
+    object ActParar: TAction
+      OnExecute = ActPararExecute
+    end
+    object ActExibirOcultar: TAction
+      Text = 'Exibir Player'
+      OnExecute = ActExibirOcultarExecute
+    end
+    object ActSobre: TAction
+      Text = 'Sobre...'
+      OnExecute = ActSobreExecute
+    end
+  end
+end

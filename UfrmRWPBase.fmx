@@ -1,0 +1,14 @@
+object frmRWPBase: TfrmRWPBase
+  Left = 690
+  Top = 270
+  Caption = 'RadioWebPlayer (Form base)'
+  ClientHeight = 304
+  ClientWidth = 418
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 690
+  Top = 270
+  DesignerMasterStyle = 0
+end

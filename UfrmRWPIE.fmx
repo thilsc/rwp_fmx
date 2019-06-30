@@ -1,0 +1,18 @@
+inherited frmRWPIE: TfrmRWPIE
+  ClientHeight = 312
+  DesignerMasterStyle = 0
+  inherited pnlSeletor: TPanel
+    Position.Y = 264.000000000000000000
+    inherited cbb1: TComboBox
+      Position.X = 4.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 205.000000000000000000
+    end
+  end
+  object wb1: TWebBrowser [3]
+    Align = Client
+    Size.Width = 418.000000000000000000
+    Size.Height = 237.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

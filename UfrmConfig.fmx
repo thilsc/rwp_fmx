@@ -1,0 +1,164 @@
+object frmConfig: TfrmConfig
+  Left = 660
+  Top = 210
+  BorderIcons = [biSystemMenu]
+  ClientHeight = 615
+  ClientWidth = 545
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  OnCloseQuery = FormCloseQuery
+  Left = 660
+  Top = 210
+  DesignerMasterStyle = 0
+  object btnOK: TButton
+    Anchors = [akLeft, akBottom]
+    ModalResult = 1
+    Position.X = 187.000000000000000000
+    Position.Y = 563.000000000000000000
+    Size.Width = 75.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'OK'
+    OnClick = btnOKClick
+    Left = 178
+    Top = 343
+  end
+  object btnCancelar: TButton
+    Anchors = [akLeft, akBottom]
+    ModalResult = 2
+    Position.X = 283.000000000000000000
+    Position.Y = 563.000000000000000000
+    Size.Width = 75.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Cancelar'
+    OnClick = btnCancelarClick
+    Left = 298
+    Top = 343
+  end
+  object grpCanais: TGroupBox
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.X = 14.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 522.000000000000000000
+    Size.Height = 425.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Canais'
+    TabOrder = 1
+    Left = 11
+    Top = 88
+    object sg: TStringGrid
+      Align = Bottom
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      PopupMenu = pmnEstacoes
+      Position.Y = 26.000000000000000000
+      Size.Width = 522.000000000000000000
+      Size.Height = 399.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnDblClick = sgDblClick
+      RowCount = 2
+      RowHeight = 21.000000000000000000
+      OnKeyDown = sgKeyDown
+      Left = 2
+      Top = 24
+      Viewport.Width = 518.000000000000000000
+      Viewport.Height = 374.000000000000000000
+      object colEstacoes: TStringColumn
+        Header = 'Esta'#231#245'es'
+        Size.Width = 145.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object colURL: TStringColumn
+        Header = 'URL'
+        Position.X = 145.000000000000000000
+        Size.Width = 368.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+  end
+  object grpGeral: TGroupBox
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 14.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 522.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Geral'
+    TabOrder = 0
+    Left = 11
+    Top = 8
+    object chkExibirMsg: TCheckBox
+      IsChecked = True
+      Position.X = 16.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 157.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Exibir Mensagens de erro'
+      Left = 8
+      Top = 36
+    end
+    object chkIniciarMinimizado: TCheckBox
+      Position.X = 288.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Iniciar minimizado'
+      Left = 9
+      Top = 55
+    end
+    object chkIniciar: TCheckBox
+      Position.X = 16.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Iniciar com o Windows'
+      Left = 8
+      Top = 16
+    end
+  end
+  object pmnEstacoes: TPopupMenu
+    Left = 21
+    Top = 566
+    object mnuEditRadio: TMenuItem
+      Text = 'Editar esta'#231#227'o...'
+      OnClick = mnuEditRadioClick
+    end
+    object mnuInclRadio: TMenuItem
+      Text = '&Incluir'
+      OnClick = mnuInclRadioClick
+    end
+    object mnuExclRadio: TMenuItem
+      Text = '&Excluir'
+      OnClick = mnuExclRadioClick
+    end
+  end
+  object lbl1: TLabel
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 141.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.WordWrap = False
+    Text = 'Configura'#231#245'es'
+  end
+end
